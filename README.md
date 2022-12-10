@@ -86,7 +86,7 @@ build the first 2 sections of the mobile website using the template you chose in
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running follow these simple example steps.
 
-1. Clone the Repo or Download the Zip file or ``` git clone git@github.com:josuerushanika/Portfolio-add-a-contact-form-and-finish-the-mobile-version.git```.
+1. Clone the Repo or Download the Zip file or ``` git clone git@github.com:josuerushanika/Josue-portfolio.git```.
 2. Open it with the live server
 
 ### Prerequisites
