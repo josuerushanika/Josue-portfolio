@@ -16,7 +16,7 @@
 
 Getting Started
 Cloning the project
-Git clone git@github.com:josuerushanika/Portfolio-add-a-contact-form-and-finish-the-mobile-version.git
+Git clone git@github.com:josuerushanika/Josue-portfolio.git
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites
@@ -99,7 +99,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:josuerushanika/Portfolio-add-a-contact-form-and-finish-the-mobile-version.git
+  git clone git@github.com:josuerushanika/Josue-portfolio.git
 ```
 
 
