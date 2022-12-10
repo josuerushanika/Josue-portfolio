@@ -438,7 +438,13 @@ li.social-icon {
   background-position: center right;
 }
 
-
+@media (min-width: 768px) {
+  .contact-section-bg {
+    background-image: url(../images/background/contact-bg-lg.svg);
+    background-size: 1290px 718px;
+    background-position: center center;
+  }
+}
 
 .contact-container {
   max-width: 600px;
@@ -504,14 +510,6 @@ li.social-icon {
   align-self: flex-start;
   margin: 0;
   border: 1px solid #fff;
-}
-
-@media (min-width: 768px) {
-  .contact-section-bg {
-    background-image: url(../images/background/contact-bg-lg.svg);
-    background-size: 1290px 718px;
-    background-position: center center;
-  }
 }
 
 @media (min-width: 768px) {
