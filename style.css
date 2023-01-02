@@ -13,8 +13,6 @@ body {
   background-color: #e5e5e5;
 }
 
-
-
 .Mylogo {
   text-decoration: none;
   color: #6070ff;
@@ -30,18 +28,18 @@ nav {
   background-color: white;
 }
 
-nav ul {
+/* nav ul {
   display: flex;
   list-style: none;
   padding-right: 50px;
-}
+} */
 
 nav ul li {
   margin: 0 30px;
 }
 
 nav ul li a {
-  color:#344563;;
+  color: #344563;
 }
 
 .nav-item1 {
@@ -141,7 +139,7 @@ nav ul li a {
   animation-duration: 4s;
 }
 
-@keyframes introin {
+/* @keyframes introin {
   from {
     margin-left: 100%;
   }
@@ -149,7 +147,7 @@ nav ul li a {
   to {
     margin-left: 22%;
   }
-}
+} */
 
 .intro1 {
   font-family: 'Poppins', sans-serif;
@@ -503,7 +501,6 @@ li.social-icon {
   border: 1px solid #fff;
 }
 
-
 .contact-section form button:hover,
 .contact-section form button:focus {
   border: 1px solid #fff;
@@ -513,12 +510,47 @@ nav ul {
   display: none;
 }
 
+nav.mobile-navigation {
+  display: flex;
+  z-index: 100;
+  background: #6070ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.96;
+}
+
+nav.mobile-navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 12px;
+  font-size: 32px;
+  margin-top: -400px;
+  font-family: sans-serif;
+}
+
+nav.mobile-navigation ul a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+nav.mobile-navigation ul li {
+  color: white;
+  margin: 16px 0;
+}
+
 @media (min-width: 600px) {
   .contact-section-bg {
     background-image: url(../images/background/contact-bg-lg.svg);
     background-position: center center;
     background-size: 1290px 718px;
   }
+
   .contact-section form input,
   .contact-section form textarea {
     width: 447px;
@@ -528,10 +560,12 @@ nav ul {
   .contact-section form button {
     align-self: center;
   }
-nav ul {
-  display: flex;
-}
- 
-}
 
+  nav ul {
+    display: flex;
+  }
 
+  nav.mobile-navigation {
+    display: none;
+  }
+}
