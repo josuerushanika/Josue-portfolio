@@ -18,6 +18,7 @@ body {
   color: #6070ff;
   padding-left: 30px;
   font-size: 20px;
+  font-weight: 700;
 }
 
 nav {
@@ -513,7 +514,13 @@ nav.mobile-navigation {
   top: 0;
   height: 100vh;
   width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav.mobile-navigation.active {
   opacity: 0.96;
+  pointer-events: auto;
 }
 
 nav.mobile-navigation ul {
@@ -537,8 +544,22 @@ nav.mobile-navigation ul li {
   margin: 16px 0;
 }
 
-nav .mobile-close {
+nav .mobile-close,
+nav .mobile-menu {
+  display: block;
   z-index: 200;
+  margin-right: 24px;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+nav .mobile-close.active,
+nav .mobile-menu.active {
+  opacity: 0.96;
+  pointer-events: auto;
+  padding-left: 80px;
 }
 
 @media (min-width: 600px) {
@@ -562,7 +583,9 @@ nav .mobile-close {
     display: flex;
   }
 
-  nav.mobile-navigation {
+  nav.mobile-navigation,
+  nav .mobile-menu,
+  nav .mobile-close {
     display: none;
   }
 }
