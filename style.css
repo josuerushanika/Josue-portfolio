@@ -28,12 +28,6 @@ nav {
   background-color: white;
 }
 
-/* nav ul {
-  display: flex;
-  list-style: none;
-  padding-right: 50px;
-} */
-
 nav ul li {
   margin: 0 30px;
 }
@@ -540,8 +534,11 @@ nav.mobile-navigation ul a {
 }
 
 nav.mobile-navigation ul li {
-  color: white;
   margin: 16px 0;
+}
+
+nav .mobile-close {
+  z-index: 200;
 }
 
 @media (min-width: 600px) {
