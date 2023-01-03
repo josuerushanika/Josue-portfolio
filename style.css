@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 nav {
@@ -548,6 +549,12 @@ nav.mobile-navigation ul a {
 
 nav.mobile-navigation ul li {
   margin: 16px 0;
+}
+
+nav .mobile-close {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 nav .mobile-close,
