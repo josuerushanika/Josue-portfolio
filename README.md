@@ -1,47 +1,38 @@
 
-# Portfolio: add a contact form and finish the mobile version
-
-
-
 <a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <div align="center">
 
-  <h3><b>Portfolio: add a contact form and finish the mobile version</b></h3>
+  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b> Josue Portfolio</b></h3>
 
 </div>
 
 <!-- TABLE OF CONTENTS -->
-
-
-Getting Started
-Cloning the project
-Git clone git@github.com:josuerushanika/Josue-portfolio.git
-To get a local copy up and running follow these simple example steps.
-
-Prerequisites
-A working browser application.
-VS code or anu other IDE
-NPM (Node Package Manager)
-Setup
-Install
-INSTALLING AND TESTING WEBHINT
-
-- npm init -y
-- npm install --save-dev hint@6.x
-For validation detection to use Webhint Run
--npx hint .
-INSTALLING AND TESTING STYLEHINT
-
-- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-For validation detection to use Webhint Run
-
-- npx stylelint "**/*.{css,scss}"
-
-
-
-
-
 
 # 📗 Table of Contents
 
@@ -49,10 +40,16 @@ For validation detection to use Webhint Run
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -61,62 +58,157 @@ For validation detection to use Webhint Run
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ Portfolio-setupandmobile] <a name="about-project"></a>
-Description
-For the first milestone in the process of creating your portfolio website, you will:
+# 📖 Josue Portfolio <a name="about-project"></a>
 
-set up a new repository and prepare it for development using best practices (e.g. linters).
-build the first 2 sections of the mobile website using the template you chose in the previous step.
- 
+<!-- > Describe your project in 1 or 2 sentences. -->
 
-**[your_project__name]** is a...
+**Josue Portfolio** is a responsive webpage design of a portfolio created to learn using figma,flexbox,grid layout, and manipulating the DOM using javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="">Html</a></li>
-    <li><a href="">Css</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+
+- **Responsive design**
+- **Desplays projects and links to the details**
+- **Used only vanilla CSS, html and Javascript**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+
+- [Live Demo Link](https://josuerushanika.github.io/Josue-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-To get a local copy up and running follow these simple example steps.
 
-1. Clone the Repo or Download the Zip file or ``` git clone git@github.com:josuerushanika/Josue-portfolio.git```.
-2. Open it with the live server
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: understanding of getting design from figma, flexbox, grid layout, and Media Query.
 
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder:https://github.com/josuerushanika/Josue-portfolio.git
+
+<!--
+Example commands:
 
 ```sh
-  git clone git@github.com:josuerushanika/Josue-portfolio.git
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
+--->
 
+### Install
 
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors">Josue Rushanika</a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
-
-- GitHub: [@githubhandle](https://github.com/josuerushanika)
-- Twitter: [@twitterhandle](https://twitter.com/josuerushanika)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/josue-rushanika-336049b3/)
+> Mention all of the collaborators of this project.
 
 
+👤 **Abiola Martins**
+
+- GitHub: https://github.com/Abmart0803
+- Twitter: [@twitterhandle]()
+- LinkedIn: [LinkedIn]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Client side form Validation with Javascript**
+- [ ] **Preserve data in browser with local storage**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -134,7 +226,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, kindly give a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,10 +236,27 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for giving me this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
@@ -155,4 +264,4 @@ This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p><a name="readme-top"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
