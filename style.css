@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffff;
+  color: #344563;
 }
 
 .nav-item1 {
@@ -95,6 +95,12 @@ nav ul li a {
   display: block;
   transition: 0.3s;
   line-height: 44px;
+}
+
+nav.mobile-navigation ul a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .overlay a:hover,
@@ -540,12 +546,6 @@ nav.mobile-navigation ul {
   margin-top: -400px;
   font-family: sans-serif;
 }
-
-/* nav.mobile-navigation ul a {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-} */
 
 nav.mobile-navigation ul li {
   margin: 16px 0;
