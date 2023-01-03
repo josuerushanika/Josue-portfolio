@@ -187,6 +187,10 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+--GitHub: [@githubhandle](https://github.com/josuerushanika)
+- Twitter: [@twitterhandle](https://twitter.com/josuerushanika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/josue-rushanika-336049b3/)
+
 > Mention all of the collaborators of this project.
 
 
