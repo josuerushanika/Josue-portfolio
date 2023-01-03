@@ -21,9 +21,15 @@ body {
   font-weight: 700;
 }
 
-nav {
+.logo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  /* display: flex;
+  justify-content: space-between; */
   align-items: center;
   padding-top: 44px;
   background-color: white;
