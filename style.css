@@ -541,11 +541,11 @@ nav.mobile-navigation ul {
   font-family: sans-serif;
 }
 
-nav.mobile-navigation ul a {
+/* nav.mobile-navigation ul a {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-}
+} */
 
 nav.mobile-navigation ul li {
   margin: 16px 0;
