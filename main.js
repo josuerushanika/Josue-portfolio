@@ -1,7 +1,7 @@
-//import from card.js
+// import from card.js
 import projects from './card.js';
 
-//nav bar
+// nav bar
 const mobileMenu = document.querySelector('nav .mobile-menu');
 const mobileClose = document.querySelector('nav .mobile-close');
 const mobileNavigation = document.querySelector('.mobile-navigation');
@@ -14,7 +14,7 @@ function display() {
 mobileMenu.addEventListener('click', display);
 mobileClose.addEventListener('click', display);
 
-//card
+// card
 const projectsContainer = document.querySelector('.works-section');
 console.log('project', projectsContainer, projects);
 
@@ -45,3 +45,7 @@ projects.forEach((project) => {
 </article>
 `;
 });
+
+//PROJECT POPUP MENU
+
+const seeProjectBtn = document.querySelectorAll('.works-section .primary-button');

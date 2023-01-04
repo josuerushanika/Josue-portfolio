@@ -125,7 +125,6 @@ nav.mobile-navigation ul a {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #fff;
-  width: 98%;
   height: 90vh;
   border-radius: 0 0 0 100px;
   border-bottom: 2px solid #cfd8dc;
@@ -205,6 +204,7 @@ ul.social {
   height: 20px;
   padding: 10px 0 0 20px;
   transition: all 2s;
+  padding-bottom: 66px;
 }
 
 .social-icon:hover {
