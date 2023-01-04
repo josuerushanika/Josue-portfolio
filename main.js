@@ -48,4 +48,11 @@ projects.forEach((project) => {
 
 //PROJECT POPUP MENU
 
-const seeProjectBtn = document.querySelectorAll('.works-section .primary-button');
+const seeProjectBtn = document.querySelector('.primary-button');
+const modalDisplay = document.createElement('div');
+modalDisplay.classList.add('modal-display');
+const allElement = document.querySelector('works-section');
+
+//Function for clicked button 
+
+

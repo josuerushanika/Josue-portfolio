@@ -602,3 +602,47 @@ nav .mobile-menu.active {
     display: none;
   }
 }
+
+/* POPUP */
+
+.main-popup-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-popup-container .bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2230d2;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+.popup-content-wrapper {
+  position: fixed;
+  width: 90%;
+  z-index: 9999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#projet {
+  display: flex;
+  color: red;
+}
+
+@media (min-width: 610px) {
+  .popup-content-wrapper .card {
+    max-height: 770px;
+    overflow-y: scroll;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
