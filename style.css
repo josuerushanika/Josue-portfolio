@@ -13,35 +13,35 @@ body {
   background-color: #e5e5e5;
 }
 
-.web-nav {
-  display: none;
-}
-
 .Mylogo {
   text-decoration: none;
   color: #6070ff;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.header-container {
+.logo {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: 50px;
-  padding: 2%;
-  background-color: #fff;
-  color: #6070ff;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
   align-items: center;
-  text-align: center;
-  overflow: hidden;
+  position: relative;
 }
 
-.header-container #myLinks {
-  display: none;
+nav {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  padding-top: 44px;
+  background-color: white;
+}
+
+nav ul li {
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: #344563;
 }
 
 .nav-item1 {
@@ -66,7 +66,6 @@ body {
   width: 100%;
   display: none;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: #6070ff;
@@ -96,6 +95,12 @@ body {
   display: block;
   transition: 0.3s;
   line-height: 44px;
+}
+
+nav.mobile-navigation ul a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .overlay a:hover,
@@ -142,7 +147,7 @@ body {
   animation-duration: 4s;
 }
 
-@keyframes introin {
+/* @keyframes introin {
   from {
     margin-left: 100%;
   }
@@ -150,7 +155,7 @@ body {
   to {
     margin-left: 22%;
   }
-}
+} */
 
 .intro1 {
   font-family: 'Poppins', sans-serif;
@@ -438,14 +443,6 @@ li.social-icon {
   background-position: center right;
 }
 
-@media (min-width: 768px) {
-  .contact-section-bg {
-    background-image: url(../images/background/contact-bg-lg.svg);
-    background-position: center center;
-    background-size: 1290px 718px;
-  }
-}
-
 .contact-container {
   max-width: 600px;
   padding: 114px 24px;
@@ -512,7 +509,79 @@ li.social-icon {
   border: 1px solid #fff;
 }
 
-@media (min-width: 768px) {
+.contact-section form button:hover,
+.contact-section form button:focus {
+  border: 1px solid #fff;
+}
+
+nav ul {
+  display: none;
+}
+
+nav.mobile-navigation {
+  display: flex;
+  z-index: 100;
+  background: #6070ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav.mobile-navigation.active {
+  opacity: 0.96;
+  pointer-events: auto;
+}
+
+nav.mobile-navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 12px;
+  font-size: 32px;
+  margin-top: -400px;
+  font-family: sans-serif;
+}
+
+nav.mobile-navigation ul li {
+  margin: 16px 0;
+}
+
+nav .mobile-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav .mobile-close,
+nav .mobile-menu {
+  display: block;
+  z-index: 200;
+  margin-right: 24px;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+nav .mobile-close.active,
+nav .mobile-menu.active {
+  opacity: 0.96;
+  pointer-events: auto;
+  padding-left: 80px;
+}
+
+@media (min-width: 600px) {
+  .contact-section-bg {
+    background-image: url(../images/background/contact-bg-lg.svg);
+    background-position: center center;
+    background-size: 1290px 718px;
+  }
+
   .contact-section form input,
   .contact-section form textarea {
     width: 447px;
@@ -522,9 +591,14 @@ li.social-icon {
   .contact-section form button {
     align-self: center;
   }
-}
 
-.contact-section form button:hover,
-.contact-section form button:focus {
-  border: 1px solid #fff;
+  nav ul {
+    display: flex;
+  }
+
+  nav.mobile-navigation,
+  nav .mobile-menu,
+  nav .mobile-close {
+    display: none;
+  }
 }

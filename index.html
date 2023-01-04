@@ -5,36 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Josue-Portofolio</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
-            <nav class="nav-item1"><a class="Mylogo" href="">My Logo</a></nav>
-            <nav class="nav-item2"></nav>
-            <nav class="nav-item3">
-                <img class="toggle" src="images/toggle.png" alt="">
-            </nav>
-            <div id="myNav" class="overlay">
-                <a class="closebtn"> &times; </a>
-                <div class="overlay-content">
-                    <a class="pop-nav" href="#portfolio">Portfolio</a>
-                    <a class="pop-nav" href="#about">About</a>
-                    <a class="pop-nav" href="#contact">Contact</a>
-                </div>
-            </div>
-        </div>
-        <nav class="web-nav">
-            <div class="logo">
-                <a class="Mylogo" href="">My Logo</a>
-            </div>
+        <nav >
+          
+            <div class="logo"><a class="Mylogo" href=""> MyLogo </a>
+             
             <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+              <li>
+                  <a href="#portfolio">Portfolio</a>
+              </li>
+  
+              <li>
+                  <a href="#about">About</a>
+              </li>
+  
+              <li>
+                  <a href="#contact">Contact</a>
+              </li>
+  
+             </ul>
+
+             <div class="mobile-menu active">
+               <img src="images/toggle-icon.svg" alt="">
+             </div>
+
+             <div class="mobile-close">
+               <img src="images/Icon - Cancel.svg" alt="">
+             </div>
+         </nav>
+
+         <nav class="mobile-navigation"  onclick="display()" >
+          <ul >
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+           </ul>
+         </nav>
+        </div>
     </header>
     <section class="content">
         <h1 class="intro">I'm Josue Rushanika Nice to see you!</h1>
@@ -64,7 +86,7 @@
         </ul>
     </section>
 
-    <section class="works-section container">
+    <section class="works-section container" id="portfolio">
     <article class="card">
         <div class="card-image">
            <img src="images/portfolio-1.svg" alt="Portfolio">
@@ -172,7 +194,7 @@
     </section>
 
 
-<section class="about-me-section coontainer">
+<section class="about-me-section coontainer" id="about">
 <div class="about-me-container">
  <h2 class="intro">About <br /> Myself</h2>
  <p class="intro1">
@@ -271,5 +293,6 @@
 </section>
 
 
+<script src="main.js"></script>
 </body>
 </html>
