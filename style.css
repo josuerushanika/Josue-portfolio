@@ -633,9 +633,14 @@ nav .mobile-menu.active {
   transform: translate(-50%, -50%);
 }
 
-#projet {
+.proj-button {
+  width: 100%;
   display: flex;
-  color: red;
+  justify-content: space-between;
+}
+
+.proj-button a {
+  color: #6070ff;
 }
 
 @media (min-width: 610px) {
