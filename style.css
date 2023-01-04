@@ -651,3 +651,9 @@ nav .mobile-menu.active {
     margin: 0 auto;
   }
 }
+
+@media (min-width: 900px) {
+  .card-content {
+    display: row;
+  }
+}
