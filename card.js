@@ -29,4 +29,5 @@ const projects = [
   },
 ];
 
+//export project to main,js
 export default projects;
