@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 // import from card.js
 import projects from './card.js';
 
@@ -46,31 +47,41 @@ projects.forEach((project) => {
 `;
 });
 
-//PROJECT POPUP MENU
+// PROJECT POPUP MENU
 
+// call class  .main-popup-container
 const popupMainContainer = document.querySelector('.main-popup-container');
+// call class of extend-project added dynamically in js for all project
 const extendProjectBtns = document.querySelectorAll('.extend-project');
+// call for class close-icon-wrapper for icon image in htm
 const closePopUp = document.querySelector('.close-icon-wrapper');
 
-function closePopUpFunc(){
-   popupMainContainer.classList.remove('open')
+// Fonction to remove opupMainContainer on the body when close-icon-wrapper is clicked
+function closePopUpFunc() {
+  popupMainContainer.classList.remove('open');
 }
 
+// function to add class list
 function showPopUp(event) {
-   console.log('clicked', event.target.id, popupMainContainer);
-   popupMainContainer.classList.add('open')
+  console.log('clicked', event.target.id, popupMainContainer);
+  popupMainContainer.classList.add('open');
 }
+// function to close addEventListener
+closePopUp.addEventListener('click', closePopUpFunc);
 
-closePopUp.addEventListener('click', closePopUpFunc)
+// console.log('btns', extendProjectBtns);
 
-console.log('btns', extendProjectBtns);
-
+// to access all button
 for (let index = 0; index < extendProjectBtns.length; index++) {
-   const element = extendProjectBtns[index];
-   element.addEventListener('click', showPopUp)
+  const element = extendProjectBtns[index];
+  element.addEventListener('click', showPopUp);
 }
 
+//nav bar display 
 
-//Function for clicked button 
+const navLinkList = document.querySelectorAll('.nav-link');
 
-
+for (let index = 0; index < navLinkList.length; index++) {
+  const element = navLinkList[index];
+  element.addEventListener('click', display);
+}

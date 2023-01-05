@@ -97,6 +97,10 @@ nav ul li a {
   line-height: 44px;
 }
 
+.proj-button a {
+  color: #6070ff;
+}
+
 nav.mobile-navigation ul a {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -644,10 +648,6 @@ nav .mobile-menu.active {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.proj-button a {
-  color: #6070ff;
 }
 
 .project-first-container {

@@ -1,6 +1,6 @@
 const projects = [
   {
-    id:1,
+    id: 1,
     title: 'Tonic',
     image: 'images/portfolio-1.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -8,7 +8,7 @@ const projects = [
     source: 'https://github.com/josuerushanika/Josue-portfolio',
   },
   {
-    id:2,
+    id: 2,
     title: 'Multi-Post Stories',
     image: 'images/portfolio-2.svg',
     description: 'A daily selectin of privalety personalized reads; no accounts or sign-ups required',
@@ -16,7 +16,7 @@ const projects = [
     source: 'https://github.com/josuerushanika/Josue-portfolio',
   },
   {
-    id:3,
+    id: 3,
     title: 'Tonic',
     image: 'images/portfolio-3.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -24,7 +24,7 @@ const projects = [
     source: 'https://github.com/josuerushanika/Josue-portfolio',
   },
   {
-    id:4,
+    id: 4,
     title: 'Multi-Post Stories',
     image: 'images/portfolio-4.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -35,6 +35,3 @@ const projects = [
 
 // export project to main,js
 export default projects;
-
-
-
