@@ -7,9 +7,17 @@ const mobileMenu = document.querySelector('nav .mobile-menu');
 const mobileClose = document.querySelector('nav .mobile-close');
 const mobileNavigation = document.querySelector('.mobile-navigation');
 
+// nav bar display
+const navLinkList = document.querySelectorAll('.nav-link');
+
 function display() {
   mobileNavigation.classList.toggle('active');
   mobileClose.classList.toggle('active');
+}
+
+for (let index = 0; index < navLinkList.length; index++) {
+  const element = navLinkList[index];
+  element.addEventListener('click', display);
 }
 
 mobileMenu.addEventListener('click', display);
@@ -63,7 +71,17 @@ function closePopUpFunc() {
 
 // function to add class list
 function showPopUp(event) {
-  console.log('clicked', event.target.id, popupMainContainer);
+  const projectId = event.target.id;
+  const project = projects.find((project) => project.id === Number(projectId));
+  console.log('clicked', event.target.id, popupMainContainer, project);
+  const popImg = document.querySelector('.pop-img');
+  const popPar = document.querySelector('.popup-card-description');
+  const poPitle = document.querySelector('.main-popup-container .card-title');
+
+  poPitle.innerHTML = project.title;
+  popPar.innerHTML = project.description;
+  popImg.src = project.image;
+
   popupMainContainer.classList.add('open');
 }
 // function to close addEventListener
@@ -75,13 +93,4 @@ closePopUp.addEventListener('click', closePopUpFunc);
 for (let index = 0; index < extendProjectBtns.length; index++) {
   const element = extendProjectBtns[index];
   element.addEventListener('click', showPopUp);
-}
-
-//nav bar display 
-
-const navLinkList = document.querySelectorAll('.nav-link');
-
-for (let index = 0; index < navLinkList.length; index++) {
-  const element = navLinkList[index];
-  element.addEventListener('click', display);
 }
