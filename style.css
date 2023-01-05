@@ -7,6 +7,8 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -99,6 +101,10 @@ nav ul li a {
 
 .proj-button a {
   color: #6070ff;
+}
+
+.proj-button :hover {
+  background: white;
 }
 
 nav.mobile-navigation ul a {
@@ -648,11 +654,6 @@ nav .mobile-menu.active {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.project-first-container {
-  display: flex;
-  gap: 50vw;
 }
 
 .card-image2 {

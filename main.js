@@ -25,7 +25,6 @@ mobileClose.addEventListener('click', display);
 
 // card
 const projectsContainer = document.querySelector('.works-section');
-console.log('project', projectsContainer, projects);
 
 projects.forEach((project) => {
   projectsContainer.innerHTML += `<article class="card">
@@ -73,7 +72,6 @@ function closePopUpFunc() {
 function showPopUp(event) {
   const projectId = event.target.id;
   const project = projects.find((project) => project.id === Number(projectId));
-  console.log('clicked', event.target.id, popupMainContainer, project);
   const popImg = document.querySelector('.pop-img');
   const popPar = document.querySelector('.popup-card-description');
   const poPitle = document.querySelector('.main-popup-container .card-title');
