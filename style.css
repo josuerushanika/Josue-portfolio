@@ -103,8 +103,8 @@ nav ul li a {
   color: #6070ff;
 }
 
-.proj-button :hover {
-  background: white;
+.proj-button .primary-button:hover a {
+  color: white;
 }
 
 nav.mobile-navigation ul a {
@@ -689,7 +689,6 @@ nav .mobile-menu.active {
     display: flex;
     flex-direction: row;
   }
-
   .popup-content-wrapper .card-description {
     width: 50%;
     flex: 1;
@@ -698,6 +697,6 @@ nav .mobile-menu.active {
 
   .second-container {
     width: 50%;
-    max-width: 300px;
+    max-width: 320px;
   }
 }
