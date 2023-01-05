@@ -40,17 +40,17 @@
              </div>
          </nav>
 
-         <nav class="mobile-navigation"  onclick="display()" >
-          <ul >
-            <li>
+         <nav class="mobile-navigation">
+          <ul  >
+            <li class="nav-link">
                 <a href="#portfolio">Portfolio</a>
             </li>
 
-            <li>
+            <li class="nav-lin">
                 <a href="#about">About</a>
             </li>
 
-            <li>
+            <li class="nav-link">
                 <a href="#contact">Contact</a>
             </li>
 
@@ -87,33 +87,7 @@
     </section>
 
     <section class="works-section container" id="portfolio">
-    <article class="card">
-        <div class="card-image">
-           <img src="images/portfolio-1.svg" alt="Portfolio">
-        </div>
-        <div class="card-content">
-         <h2 class="card-title">Tonic</h2>
-         <ul class="card-info">
-          <li>CANOPY</li>
-          <li>Back End Dev</li>
-          <li>2015</li>
-         </ul>
-         <P class="card-description">
-           A daily selectin of privalety personalized reads; no accounts
-           or sign-ups required.
-         </P>
-         <ul class="card-tags">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-         </ul>
-         <button class="primary-button card-button" type="button">
-            see Project
-         </button>
-        </div>
-    </article>
-
-    <article class="card">
+    <!-- article class="card">
       <div class="card-image">
        <img src="images/portfolio-2.svg" alt="Portfolio-2">
       </div>
@@ -190,7 +164,7 @@
             See Project
           </button>
         </div>
-      </article>
+      </article> -->
     </section>
 
 
@@ -293,6 +267,51 @@
 </section>
 
 
-<script src="main.js"></script>
+
+<div class="main-popup-container">
+  <div class="bg"></div>
+  <div class="popup-content-wrapper">
+
+
+    <article class="card">
+
+      <div class="project-first-container">
+        <h2 class="card-title">Tonic</h2>
+      <div class="close-icon-wrapper">
+          <img  src="images/Enabled.svg" alt="Portfolio-2">
+       </div>
+      </div>
+      <ul class="card-info">
+        <li>CANOPY</li>
+        <li>Back End Dev</li>
+        <li>2015</li>
+      </ul>
+      <div class="card-image">
+        <img class="pop-img" src="" alt="Portfolio-4" />
+      </div>
+      <div class="card-content">
+       
+        <p class="popup-card-description card-description">
+        </p>
+        <div class="second-container">
+          <ul class="card-tags">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <div class="proj-button">
+          <button class="primary-button card-button"  type="button">
+            <a  href="#">Source code &nbsp;<img src="images/Icon.png"></a>
+          </button>
+          <button class="primary-button card-button projet" type="button">
+            <a  href="#">See live &nbsp;<img src="images/git.png"></a>
+          </button>
+                </div>
+        </div>
+      </div>
+    </article>
+</div>
+
+<script src="main.js" type="module"></script>
 </body>
 </html>

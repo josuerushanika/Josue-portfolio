@@ -7,6 +7,8 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -97,6 +99,10 @@ nav ul li a {
   line-height: 44px;
 }
 
+.proj-button a {
+  color: #6070ff;
+}
+
 nav.mobile-navigation ul a {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -106,6 +112,10 @@ nav.mobile-navigation ul a {
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
+}
+
+.proj-button .primary-button:hover a {
+  color: white;
 }
 
 .overlay .closebtn {
@@ -125,7 +135,6 @@ nav.mobile-navigation ul a {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #fff;
-  width: 98%;
   height: 90vh;
   border-radius: 0 0 0 100px;
   border-bottom: 2px solid #cfd8dc;
@@ -205,6 +214,7 @@ ul.social {
   height: 20px;
   padding: 10px 0 0 20px;
   transition: all 2s;
+  padding-bottom: 66px;
 }
 
 .social-icon:hover {
@@ -600,5 +610,95 @@ nav .mobile-menu.active {
   nav .mobile-menu,
   nav .mobile-close {
     display: none;
+  }
+}
+
+/* POPUP */
+
+.main-popup-container {
+  max-height: 900vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.main-popup-container.open {
+  display: block;
+}
+
+.main-popup-container .bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2230d2;
+  opacity: 0.2;
+  z-index: 2;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.popup-content-wrapper {
+  position: fixed;
+  width: 90%;
+  z-index: 9999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.proj-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image2 {
+  align-self: flex-end;
+}
+
+.second-container {
+  width: 100%;
+}
+
+.popup-content-wrapper .project-first-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-content-wrapper .close-icon-wrapper {
+  cursor: pointer;
+}
+
+@media (min-width: 610px) {
+  .popup-content-wrapper .card {
+    max-height: 770px;
+    overflow-y: scroll;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .popup-content-wrapper .card-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup-content-wrapper .card-description {
+    width: 50%;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .second-container {
+    width: 50%;
+    max-width: 320px;
   }
 }
