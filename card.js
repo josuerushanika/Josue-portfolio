@@ -6,6 +6,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Josue-portfolio',
+    live: 'https://josuerushanika.github.io/Josue-portfolio/',
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const projects = [
     description: 'A daily selectin of privalety personalized reads; no accounts or sign-ups required',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Josue-portfolio',
+    live: 'https://josuerushanika.github.io/Josue-portfolio/',
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javaScrip'],
     source: 'https://github.com/josuerushanika/Josue-portfolio',
+    live: 'https://josuerushanika.github.io/Josue-portfolio/',
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Josue-portfolio',
+    live: 'https://josuerushanika.github.io/Josue-portfolio/',
   },
 ];
 
