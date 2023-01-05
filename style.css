@@ -622,6 +622,8 @@ nav .mobile-menu.active {
   background-color: #2230d2;
   opacity: 0.2;
   z-index: 2;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .popup-content-wrapper {
@@ -641,6 +643,15 @@ nav .mobile-menu.active {
 
 .proj-button a {
   color: #6070ff;
+}
+
+.project-ti {
+  display: flex;
+  gap: 50vw;
+}
+
+.card-image2 {
+  align-self: flex-end;
 }
 
 @media (min-width: 610px) {
