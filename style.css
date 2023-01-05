@@ -616,6 +616,7 @@ nav .mobile-menu.active {
 /* POPUP */
 
 .main-popup-container {
+  max-height: 900vh;
   position: absolute;
   top: 0;
   bottom: 0;
