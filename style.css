@@ -611,6 +611,11 @@ nav .mobile-menu.active {
   bottom: 0;
   left: 0;
   right: 0;
+  display: none;
+}
+
+.main-popup-container.open {
+  display: block;
 }
 
 .main-popup-container .bg {
@@ -645,13 +650,28 @@ nav .mobile-menu.active {
   color: #6070ff;
 }
 
-.project-ti {
+.project-first-container {
   display: flex;
   gap: 50vw;
 }
 
 .card-image2 {
   align-self: flex-end;
+}
+
+.second-container {
+  width: 100%;
+}
+
+.popup-content-wrapper .project-first-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-content-wrapper .close-icon-wrapper {
+  cursor: pointer;
 }
 
 @media (min-width: 610px) {
@@ -664,7 +684,19 @@ nav .mobile-menu.active {
 }
 
 @media (min-width: 900px) {
-  .card-content {
-    display: row;
+  .popup-content-wrapper .card-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup-content-wrapper .card-description {
+    width: 50%;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .second-container {
+    width: 50%;
+    max-width: 300px;
   }
 }

@@ -38,7 +38,7 @@ projects.forEach((project) => {
       <li>css</li>
       <li>javaScript</li>
    </ul>
-   <button class="primary-button card-button" type="button">
+   <button class="primary-button extend-project card-button" id="${project.id}" type="button">
       see Project
    </button>
   </div>
@@ -48,10 +48,28 @@ projects.forEach((project) => {
 
 //PROJECT POPUP MENU
 
-const seeProjectBtn = document.querySelector('.primary-button');
-const modalDisplay = document.createElement('div');
-modalDisplay.classList.add('modal-display');
-const allElement = document.querySelector('works-section');
+const popupMainContainer = document.querySelector('.main-popup-container');
+const extendProjectBtns = document.querySelectorAll('.extend-project');
+const closePopUp = document.querySelector('.close-icon-wrapper');
+
+function closePopUpFunc(){
+   popupMainContainer.classList.remove('open')
+}
+
+function showPopUp(event) {
+   console.log('clicked', event.target.id, popupMainContainer);
+   popupMainContainer.classList.add('open')
+}
+
+closePopUp.addEventListener('click', closePopUpFunc)
+
+console.log('btns', extendProjectBtns);
+
+for (let index = 0; index < extendProjectBtns.length; index++) {
+   const element = extendProjectBtns[index];
+   element.addEventListener('click', showPopUp)
+}
+
 
 //Function for clicked button 
 
