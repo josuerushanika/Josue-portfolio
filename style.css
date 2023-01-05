@@ -103,10 +103,6 @@ nav ul li a {
   color: #6070ff;
 }
 
-.proj-button .primary-button:hover a {
-  color: white;
-}
-
 nav.mobile-navigation ul a {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -116,6 +112,10 @@ nav.mobile-navigation ul a {
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
+}
+
+.proj-button .primary-button:hover a {
+  color: white;
 }
 
 .overlay .closebtn {
@@ -689,6 +689,7 @@ nav .mobile-menu.active {
     display: flex;
     flex-direction: row;
   }
+
   .popup-content-wrapper .card-description {
     width: 50%;
     flex: 1;
