@@ -93,7 +93,6 @@ for (let index = 0; index < extendProjectBtns.length; index++) {
   element.addEventListener('click', showPopUp);
 }
 
-
 // client side form validation form
 const form = document.querySelector('#register');
 
