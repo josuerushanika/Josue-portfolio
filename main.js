@@ -100,11 +100,19 @@ const errorMessage = document.querySelector('#error-message');
 const name = document.querySelector('#name');
 const feedback = document.querySelector('#message');
 
-
-
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     errorMessage.style.visibility = 'visible';
     event.preventDefault();
   }
 });
+
+// storing data in local Storage
+
+function visitorData() {
+  const visitor = {
+    Name: name.value,
+    Email: email.value,
+    Message : feedback.value,
+  };
+}
