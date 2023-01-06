@@ -101,6 +101,7 @@ const name = document.querySelector('#name');
 const feedback = document.querySelector('#message');
 
 
+
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     errorMessage.style.visibility = 'visible';
