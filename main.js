@@ -92,3 +92,17 @@ for (let index = 0; index < extendProjectBtns.length; index++) {
   const element = extendProjectBtns[index];
   element.addEventListener('click', showPopUp);
 }
+
+// client side form validation form
+const form = document.querySelector('#register');
+
+const email = document.querySelector('#email');
+
+const errorMessage = document.querySelector('#error-message');
+
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errorMessage.style.visibility = 'visible';
+    event.preventDefault();
+  }
+});
