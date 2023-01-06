@@ -676,6 +676,11 @@ nav .mobile-menu.active {
   cursor: pointer;
 }
 
+#error-message {
+  visibility: hidden;
+  margin-bottom: 5px;
+}
+
 @media (min-width: 610px) {
   .popup-content-wrapper .card {
     max-height: 770px;
