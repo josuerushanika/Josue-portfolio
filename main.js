@@ -95,10 +95,11 @@ for (let index = 0; index < extendProjectBtns.length; index++) {
 
 // client side form validation form
 const form = document.querySelector('#register');
-
 const email = document.querySelector('#email');
-
 const errorMessage = document.querySelector('#error-message');
+const name = document.querySelector('#name');
+const feedback = document.querySelector('#message');
+
 
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
