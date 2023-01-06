@@ -679,6 +679,7 @@ nav .mobile-menu.active {
 #error-message {
   visibility: hidden;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 @media (min-width: 610px) {
