@@ -113,6 +113,10 @@ function visitorData() {
   const visitor = {
     Name: name.value,
     Email: email.value,
-    Message : feedback.value,
+    Message: feedback.value,
   };
+  // store the object
+  localStorage.setItem('visitor', JSON.stringify(visitor));
 }
+
+[name, email, feedback].forEach((input) => input.addEventListener('focusout', visitorData));
