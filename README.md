@@ -169,7 +169,7 @@ Example command:
 ```
 --->
 
-### Deployment
+### Deployment..
 
 You can deploy this project using:
 
