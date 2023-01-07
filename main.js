@@ -119,8 +119,6 @@ function visitorData() {
   localStorage.setItem('visitor', JSON.stringify(visitor));
 }
 
-// put focus out fonction in function visitor data
-// [name, email, feedback].forEach((input) => input.addEventListener('focusout', visitorData));
 name.addEventListener('focusout', visitorData);
 email.addEventListener('focusout', visitorData);
 feedback.addEventListener('focusout', visitorData);
