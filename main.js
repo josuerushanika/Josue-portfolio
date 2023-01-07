@@ -95,10 +95,10 @@ for (let index = 0; index < extendProjectBtns.length; index++) {
 
 // client side form validation form
 const form = document.querySelector('#register');
-
 const email = document.querySelector('#email');
-
 const errorMessage = document.querySelector('#error-message');
+const name = document.querySelector('#name');
+const feedback = document.querySelector('#message');
 
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
@@ -106,3 +106,28 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+// storing data in local Storage
+
+function visitorData() {
+  const visitor = {
+    Name: name.value,
+    Email: email.value,
+    Message: feedback.value,
+  };
+  // store the object
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
+
+name.addEventListener('focusout', visitorData);
+email.addEventListener('focusout', visitorData);
+feedback.addEventListener('focusout', visitorData);
+
+// retrieve data from local storage
+
+const visitorDataExist = JSON.parse(localStorage.getItem('visitor'));
+if (visitorDataExist) {
+  name.value = visitorDataExist.Name;
+  email.value = visitorDataExist.Email;
+  feedback.value = visitorDataExist.Message;
+}
