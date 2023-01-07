@@ -119,4 +119,17 @@ function visitorData() {
   localStorage.setItem('visitor', JSON.stringify(visitor));
 }
 
-[name, email, feedback].forEach((input) => input.addEventListener('focusout', visitorData));
+// put focus out fonction in function visitor data
+// [name, email, feedback].forEach((input) => input.addEventListener('focusout', visitorData));
+name.addEventListener('focusout', visitorData);
+email.addEventListener('focusout', visitorData);
+feedback.addEventListener('focusout', visitorData);
+
+// retrieve data from local storage
+
+const visitorDataExist = JSON.parse(localStorage.getItem('visitor'));
+if (visitorDataExist) {
+  name.value = visitorDataExist.Name;
+  email.value = visitorDataExist.Email;
+  feedback.value = visitorDataExist.Message;
+}
