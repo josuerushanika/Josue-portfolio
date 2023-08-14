@@ -30,8 +30,6 @@ body {
 }
 
 nav {
-  /* display: flex;
-  justify-content: space-between; */
   align-items: center;
   padding-top: 44px;
   background-color: white;
@@ -128,6 +126,7 @@ nav.mobile-navigation ul a {
 }
 
 .content {
+  align-items: center;
   display: flex;
   flex-direction: column;
   background-image: url("images/header.png");
