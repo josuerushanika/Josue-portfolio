@@ -75,10 +75,22 @@ function showPopUp(event) {
   const popImg = document.querySelector('.pop-img');
   const popPar = document.querySelector('.popup-card-description');
   const poPitle = document.querySelector('.main-popup-container .card-title');
+  const sourcelink = document.querySelector('.sourcelink');
+  const livelink = document.querySelector('.livelink');
+
 
   poPitle.innerHTML = project.title;
   popPar.innerHTML = project.description;
   popImg.src = project.image;
+  sourcelink.innerHTML = `
+  
+  <a id="source" href="${project.source}" target="_blank">Source code &nbsp;<img
+  src="images/Icon.png"></a>
+  `
+  livelink.innerHTML = `
+  <a id= "live" href="${project.live}" target="_blank">See live &nbsp;<img
+  src="images/git.png"></a>
+  `
 
   popupMainContainer.classList.add('open');
 }
@@ -131,3 +143,12 @@ if (visitorDataExist) {
   email.value = visitorDataExist.Email;
   feedback.value = visitorDataExist.Message;
 }
+
+
+// live and source
+
+// const source = document.getElementById('.source');
+// const live = document.getElementById('.live');
+
+// source.href = "somelink url"
+

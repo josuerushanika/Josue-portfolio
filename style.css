@@ -242,18 +242,30 @@ li.social-icon {
 
 .card {
   padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: white;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
+  gap: 8px;
+}
+
+
+.popup-container {
+  padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
   gap: 8px;
 }
 
 .card-image {
-  width: 100%;
+  width: 70%;
 }
 
 .card-image img {
@@ -680,6 +692,8 @@ nav .mobile-menu.active {
     margin: 0 auto;
   }
 }
+
+
 
 @media (min-width: 900px) {
   .popup-content-wrapper .card-content {

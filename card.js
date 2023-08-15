@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Multi-Post Stories',
+    title: 'Math Magician',
     image: 'images/math.png',
     description: 'A Math Magician is a simple web application that generates random math problems for users to solve. In this explanation, we will use React, a popular JavaScript library for building user interfaces',
     technologies: ['html', 'css', 'React Js'],
