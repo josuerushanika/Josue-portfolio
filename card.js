@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'conference website',
-    image: 'images/project.png',
+    image: 'images/conferences.jpg',
     description: 'A conference website is a dedicated online platform that provides information and resources related to a specific conference or event. It serves as a central hub for attendees, organizers, and interested individuals to access details about the conference, such as the schedule, agenda, speakers, registration information, venue location, and other relevant information.',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Rwanda-Conference',
@@ -11,7 +11,7 @@ const projects = [
   {
     id: 2,
     title: 'Movies Website',
-    image: 'images/movies.png',
+    image: 'images/movies.gif',
     description: 'Movie app is a website that shows the different lists of movies depending on a chosen category and gives you the ability to add a like,and the number of ,likes ,a comment , reserve a movie , and add a comment for a selected movie.Built Using API and Javascript Webpack.and HTML CSS',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Capstone_2',
@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     title: 'Space Travelers’ Hub',
-    image: 'images/space.png',
+    image: 'images/space.gif',
     description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets dragons, missions, enabling them to reserve or cancel their bookings, users can join or leave missions, and their reserved items',
     technologies: ['html', 'css', 'javaScrip'],
     source: 'https://github.com/josuerushanika/Capstone_2',
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 4,
     title: 'Math Magician',
-    image: 'images/math.png',
+    image: 'images/calc-app.gif',
     description: 'A Math Magician is a simple web application that generates random math problems for users to solve. In this explanation, we will use React, a popular JavaScript library for building user interfaces',
     technologies: ['html', 'css', 'React Js'],
     source: 'https://github.com/josuerushanika/math-magician',

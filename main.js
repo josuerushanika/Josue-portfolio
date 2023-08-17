@@ -29,7 +29,7 @@ const projectsContainer = document.querySelector('.works-section');
 projects.forEach((project) => {
   projectsContainer.innerHTML += `<article class="card">
   <div class="card-image">
-     <img src="${project.image}" alt="Portfolio" >
+     <img src="${project.image}" alt="Portfolio" class="card-img-top" style="width: 300px; height: 200px;" >
   </div>
   <div class="card-content">
    <h2 class="card-title">${project.title}</h2>
