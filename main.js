@@ -34,9 +34,8 @@ projects.forEach((project) => {
   <div class="card-content">
    <h2 class="card-title">${project.title}</h2>
    <ul class="card-info">
-    <li>CANOPY</li>
-    <li>Back End Dev</li>
-    <li>2015</li>
+    <li>Microverse</li>
+      <li>2023</li>
    </ul>
    <P class="card-description">
     ${project.description}

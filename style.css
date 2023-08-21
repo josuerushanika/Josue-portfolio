@@ -282,6 +282,7 @@ li.social-icon {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
+  margin: 0px 12px;
 }
 
 .card-title {
@@ -719,4 +720,5 @@ nav .mobile-menu.active {
     object-fit: cover;
     border-radius: 8px;
   }
+
 }
