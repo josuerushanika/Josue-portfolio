@@ -270,7 +270,7 @@ li.social-icon {
 }
 
 .card-image img {
-  width: 80%;
+  width: 61%;
   height: 0%;
   object-fit: cover;
   border-radius: 8px;
@@ -714,8 +714,8 @@ nav .mobile-menu.active {
   }
 
   .card-image img {
-    width: 80%;
-    height: 80%;
+    width: 450px;
+    height: 250px;
     object-fit: cover;
     border-radius: 8px;
   }
