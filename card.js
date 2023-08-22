@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'conference website',
     image: 'images/conferences.jpg',
-    description: 'A conference website is a dedicated online platform that provides information and resources related to a specific conference or event. It serves as a central hub for attendees, organizers, and interested individuals to access details about the conference, such as the schedule, agenda, speakers, registration information, venue location, and other relevant information.',
+    description: 'A conference website is a dedicated online platform that provides information and resources related to a specific conference or event.',
     technologies: ['html', 'css', 'javaScript'],
     source: 'https://github.com/josuerushanika/Rwanda-Conference',
     live: 'https://josuerushanika.github.io/Rwanda-Conference/index.html',
