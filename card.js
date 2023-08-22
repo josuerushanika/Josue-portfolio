@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: 'Space Travelers’ Hub',
     image: 'images/space.gif',
-    description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets dragons, missions, enabling them to reserve or cancel their bookings, users can join or leave missions, and their reserved items',
+    description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets dragons, missions, enabling them to reserve or cancel their bookings .',
     technologies: ['html', 'css', 'javaScrip'],
     source: 'https://github.com/josuerushanika/space-travelers',
     live: 'https://space-travelers-f2ji.onrender.com/',
