@@ -1,11 +1,4 @@
-
 <a name="readme-top"></a>
-
-<div align="center">
-
-  <h3><b> Josue Portfolio</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -33,17 +26,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Josue Portfolio <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
-<!-- > Describe your project in 1 or 2 sentences. -->
-
-**Josue Portfolio** is a responsive webpage design of a portfolio created to learn using figma,flexbox,grid layout, and manipulating the DOM using javascript.
+A portfolio is one of the most important things for you to find a job. You can share it with the company you want to work for, and they can get more information about you through your portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### HTML and CSS <a name="HTML and Css"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+HTML and CSS are tools that web developers use to add text, photos, and videos, and also to design a website
 
 <details>
   <summary>Client</summary>
@@ -52,23 +43,34 @@
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+The key features of this application:
 
-
-- **Responsive design**
-- **Desplays projects and links to the details**
-- **Used only vanilla CSS, html and Javascript**
+- **My informations**
+- **My works**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
+You can have access to my project online by clicking on the below link:
 
 - [Live Demo Link](https://josuerushanika.github.io/Josue-portfolio/)
 
@@ -78,101 +80,24 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+If you want to use my project you should clone it into your computer and then open it in your code editor.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: understanding of getting design from figma, flexbox, grid layout, and Media Query.
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:https://github.com/josuerushanika/Josue-portfolio.git
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment..
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+In order to run this project you need:
+- GitHub 
+- Install Git 
+- Code Editor
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors">Josue Rushanika</a>
-
-👤 **Author**
+## 👥 Authors <a name="Josue Rushanika"></a>
 
 - GitHub: [@githubhandle](https://github.com/josuerushanika)
 - Twitter: [@twitterhandle](https://twitter.com/josuerushanika)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/josue-rushanika-336049b3/)
-
-👤 **Abiola Martins**
-
-- GitHub: https://github.com/Abmart0803
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,11 +105,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Client side form Validation with Javascript**
-- [ ] **Preserve data in browser with local storage**
-- [ ] **[new_feature_3]**
+- [ ] **My Projects**
+- [ ] **About Me**
+- [ ] **My Contact Information**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +125,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project, kindly give a ⭐️.
+This is one of my first big project, and if you like it give a star to my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,9 +133,7 @@ If you like this project, kindly give a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Microverse for giving me this opportunity.
+I would like to thank Microverse for helping me to complete this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,15 +141,13 @@ I would like to thank Microverse for giving me this opportunity.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can we clone it without Git?**
 
-- **[Question_1]**
+  - No, you should install Git.
 
-  - [Answer_1]
+- **Which programs did you use to make this?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -238,8 +155,4 @@ I would like to thank Microverse for giving me this opportunity.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./LICENSE) licensed.
